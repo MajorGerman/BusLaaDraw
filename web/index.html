@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BusLaaDraw</title>
+	<style>
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
+            body {
+                    background-color: black;
+                    text-align: center;
+            }
+            #canvas {
+                    border-width: 2px;
+                    border-color: white;
+                    background-color: white;
+            }
+            #btn1, #btn2 {
+                color: black;
+                font-size: 18px;
+            }
+            #title {
+                color: magenta;
+            }
+	</style>
+</head>
+<body>
+    <h1 id="title"> BusLaaDraw </h1>
+    <hr>
+    <canvas style="display: none;" id="canvas"></canvas><br>
+    <button id="btn1" > Create room </button><br><br>
+    <input id="gameCode"> <button id="btn2" > Join room </button>
+           
+</body>
+
+<script type="module" src="js/App.js">
+    
+    </script>
+    
+</html>
